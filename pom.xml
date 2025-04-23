@@ -13,11 +13,13 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>custom-security-starter</name>
     <description>custom-security-starter</description>
-
+    <packaging>pom</packaging>
     <properties>
         <java.version>21</java.version>
     </properties>
-
+    <modules>
+        <module>acc2-security-starter</module>
+    </modules>
     <build>
         <plugins>
             <!-- to check style -->
